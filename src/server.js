@@ -1,6 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
+const databaseUrl = process.env.DATABASE_URL;
+console.log(databaseUrl);
+console.log("DB URL:", process.env.DATABASE_URL);
 
 dotenv.config();
 
